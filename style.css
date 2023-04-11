@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+#btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#btnGroup button {
+  border: 2px solid #000;
+  margin: 10px;
+}
+
+#btnGroup button:hover {
+  background-color: #333;
+  color: #fff;
+  transition-duration: 0.3s;
+}
